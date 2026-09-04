@@ -1,0 +1,6 @@
+{
+  "name": "AgroWeedGuard",
+  "description": "AI-powered agricultural weed detection, smart removal recommendations, computer vision field analytics, and precision farming dashboard.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
