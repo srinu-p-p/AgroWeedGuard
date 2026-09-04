@@ -252,9 +252,22 @@ export default function App() {
       )}
 
       {/* Minimal Footer */}
-      <footer className="mt-12 border-t border-emerald-950/80 bg-[#060c07] py-6 text-center text-xs text-emerald-400/50">
-        <p>AgroWeedGuard — AI-Based Weed Detection & Smart Removal System</p>
-        <p className="mt-1 text-[11px] text-emerald-500/40">
+      <footer className="mt-12 border-t border-emerald-950/80 bg-[#060c07] py-6 text-center text-xs text-emerald-400/50 space-y-1.5">
+        <p className="font-semibold text-emerald-300/80">
+          AgroWeedGuard — AI-Based Weed Detection & Smart Removal System
+        </p>
+        <p className="text-[11px] text-emerald-500/60">
+          Deployed on <strong className="text-emerald-400">Vercel</strong>:{' '}
+          <a
+            href="https://agroweedguardd.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-400 underline hover:text-emerald-300 font-mono font-medium"
+          >
+            https://agroweedguardd.vercel.app/
+          </a>
+        </p>
+        <p className="text-[11px] text-emerald-500/40">
           Integrating Agricultural Computer Vision, Deep Learning (YOLOv8x/Faster R-CNN), Classical ML (XGBoost), and LLM Agronomy Guidance
         </p>
       </footer>

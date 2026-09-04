@@ -10,7 +10,9 @@ import {
   Sparkles,
   Award,
   Terminal,
-  Printer
+  Printer,
+  ExternalLink,
+  Globe
 } from 'lucide-react';
 
 export const ProjectDocsModal: React.FC = () => {
@@ -238,6 +240,21 @@ export const ProjectDocsModal: React.FC = () => {
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-emerald-400 shrink-0" />
                     <span><strong>Precision Smart Removal & Economic Analysis</strong>: Side-by-side rule vs AI spot-spraying calculator saving 68%–81% chemicals.</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Globe className="h-4 w-4 text-emerald-400 shrink-0" />
+                    <span className="flex items-center gap-1.5 flex-wrap">
+                      <strong>Demonstration of Deployed Web Application</strong> (Platform: <strong>Vercel</strong>):
+                      <a
+                        href="https://agroweedguardd.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-emerald-400 underline hover:text-emerald-300 font-semibold"
+                      >
+                        https://agroweedguardd.vercel.app/
+                        <ExternalLink className="h-3 w-3" />
+                      </a>
+                    </span>
                   </li>
                 </ul>
               </div>

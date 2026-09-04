@@ -1,6 +1,7 @@
 # AgroWeedGuard: AI-Based Weed Detection and Smart Removal System
 
-[![Live Application](https://img.shields.io/badge/Deployed%20App-Live%20Demo-emerald?style=for-the-badge&logo=google-cloud)](https://ais-pre-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://agroweedguardd.vercel.app/)
+[![Live Application](https://img.shields.io/badge/Cloud%20Demo-Live%20Preview-emerald?style=for-the-badge&logo=google-cloud)](https://agroweedguardd.vercel.app/)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?style=flat-square&logo=node.js)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.0-61dafb?style=flat-square&logo=react)](https://react.dev)
@@ -11,8 +12,9 @@
 > **Capstone Project Submission**  
 > **Author**: Srinivasulu Puchhakayala ([srinupuchhakayalachow@gmail.com](mailto:srinupuchhakayalachow@gmail.com))  
 > **Domain**: Precision Agriculture, Autonomous Farming, Computer Vision, Machine Learning, and Generative AI  
-> **Live Deployed Web Application**: [https://ais-pre-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app](https://ais-pre-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app)  
-> **Development Environment**: [https://ais-dev-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app](https://ais-dev-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app)
+> **Deployment Platform**: **Vercel**  
+> **Production Deployed Web Application URL**: [https://agroweedguardd.vercel.app/](https://agroweedguardd.vercel.app/)  
+> **Cloud Run Development Environment**: [https://ais-dev-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app](https://ais-dev-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app)
 
 ---
 
@@ -359,8 +361,9 @@ The production bundle compiles the Vite React client into `dist/` and bundles `s
 - [x] **Technical Documentation**: Comprehensive architectural diagrams, mathematical formulations, and component breakdowns.
 - [x] **Quantitative Performance Evaluation**: Accuracy, Precision, Recall, F1-Score, mAP@0.5, IoU, and interactive Multi-Class Confusion Matrix.
 - [x] **Smart Removal & Economic Validation**: Side-by-side comparative simulation demonstrating 68%–81% chemical herbicide savings and nozzle pulse-width modulation.
-- [x] **Demonstration of Deployed Web Application**: Fully deployed and operating live on Google Cloud Run container infrastructure at:  
-  **[https://ais-pre-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app](https://ais-pre-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app)**
+- [x] **Demonstration of Deployed Web Application**: Fully deployed and operating live on **Vercel** at:  
+  **[https://agroweedguardd.vercel.app/](https://agroweedguardd.vercel.app/)**  
+  *(Cloud Run Preview: [https://ais-pre-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app](https://ais-pre-vnz7sx4hdfv4rjbvxh4vid-1043510347915.asia-southeast1.run.app))*
 
 ---
 

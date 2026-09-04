@@ -9,7 +9,8 @@ import {
   History,
   BookOpen,
   Sparkles,
-  ShieldCheck
+  ShieldCheck,
+  ExternalLink
 } from 'lucide-react';
 
 export type ActiveTab =
@@ -102,13 +103,28 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
         </div>
 
-        {/* Status indicators */}
-        <div className="hidden lg:flex items-center gap-3 text-xs">
-          <div className="flex items-center gap-1.5 rounded-lg border border-emerald-900/60 bg-emerald-950/30 px-2.5 py-1 text-emerald-300">
+        {/* Status indicators & Deployment Link */}
+        <div className="flex items-center gap-2 sm:gap-3 text-xs">
+          <a
+            href="https://agroweedguardd.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Open Deployed Web App on Vercel"
+            className="flex items-center gap-1.5 rounded-lg border border-emerald-500/50 bg-emerald-950/60 px-2.5 py-1 text-emerald-300 transition-all hover:border-emerald-400 hover:bg-emerald-900/60 hover:text-white"
+          >
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+            </span>
+            <span className="font-semibold text-[11px]">Vercel Live</span>
+            <ExternalLink className="h-3 w-3 text-emerald-400" />
+          </a>
+
+          <div className="hidden lg:flex items-center gap-1.5 rounded-lg border border-emerald-900/60 bg-emerald-950/30 px-2.5 py-1 text-emerald-300">
             <ShieldCheck className="h-3.5 w-3.5 text-emerald-400" />
             <span className="font-mono text-[11px]">Model: {selectedModel}</span>
           </div>
-          <div className="flex items-center gap-1.5 rounded-lg border border-emerald-900/60 bg-emerald-950/30 px-2.5 py-1 text-emerald-300">
+          <div className="hidden sm:flex items-center gap-1.5 rounded-lg border border-emerald-900/60 bg-emerald-950/30 px-2.5 py-1 text-emerald-300">
             <Sparkles className="h-3.5 w-3.5 text-amber-400" />
             <span>Active Targets: <strong>{detectedCount}</strong></span>
           </div>
